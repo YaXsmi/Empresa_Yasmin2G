@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="produtos.css">
+  <title>Produtos - John's Barber</title>
+</head>
+
+<body class="corpo-pedido">
+  <header>
+    <div class="caixa">
+      <h1> <img src="logo.png"> </h1>
+
+      <nav>
+        <ul>
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="produtos.html"> Produtos</a> </li>
+          <li> <a href="pedido.html"> Pedido</a> </li>
+          <li> <a href="contato.html"> Contato</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-pedido">
+<form>
+  <fieldset>
+    <h1 class="h1-pedido">Faça seu pedido marcando a caixa do porduto que deseja comprar: </h1>
+    <label> <input type="checkbox" > Brigadeiro de Ferrero Rocher </label>
+    <label> <input type="checkbox" > Brigadeiro Belga </label>
+    <label> <input type="checkbox" > Bolo de Pote de ninho com nutella </label>
+    <label> <input type="checkbox" > Bolo de Pote de maracujá</label>
+    <label> <input type="checkbox" > Copo da Felicidade de Brigadeiro Branco com morango</label>
+    <label> <input type="checkbox" > Brownie kit kat dois amores</label>
+    <label> <input type="checkbox" > Copo da Felicidade Kinder Bueno </label>
+  </fieldset>
+  <fieldset>
+    <h1 class="h1-pedido">Cadastro</h1>
+  <label for="nomeSobrenome"> Nome e Sobrenome </label>
+  <input type="text" id="nomeSobrenome" class="input-padrao" required>
+
+  <label for="CPF"> CPF </label>
+  <input type="CPF" id="CPF" class="input-padrao" placeholder="xxxxxxxxxxx" required>
+
+  <label for="telefone"> Telefone </label>
+  <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+  <label for="mensagem"> Endereço </label>
+  <textarea id="mensagem" class="input-padrao" placeholder="EX: Rua, nº, bairro, cidade - CEP "></textarea>
+    </fieldset>
+ <fieldset>
+   <legend class="legenda-pedido"> Qual será a forma de pagamento?</legend>
+   <select class="opcao-pedido">
+     <option> Cartão de Debito </option>
+     <option> Cartão de Crédito </option>
+   </select>
+ </fieldset>
+<fieldset>
+  <h1 class="h1-pedido">Cadastro do Cartão</h1>
+  <label for="Nome do Titular"> Nome do Titular </label>
+  <input type="nome" id="nomedotitular" class="input-padrao"  required>
+  <label for="Numero do Cartão"> Numero do Cartão </label>
+  <input type="NumerodoCartão" id="NumerodoCartão" class="input-padrao" placeholder="xxxxxxxxxxxx" required>
+  <label for="validade"> Validade </label>
+  <input type="Validade" id="validade" class="input-padrao" placeholder="xx/xx" required>
+</fieldset>
+  
+
+
+  
+  <input type="submit" class="enviar" value="Enviar o Formulário">
+
+</form>
+
+  </main>
+
+  <footer>
+    <img src="Logobranco.png">
+    <p class="copyright"> &#169; Copyrithgt John's Barber - 2019</p>
+  </footer>
+</body>
+
+</html>

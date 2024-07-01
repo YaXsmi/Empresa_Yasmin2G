@@ -1,0 +1,215 @@
+header {
+  background-color: #462A19;
+  padding: 20px 0;
+}
+
+
+
+.caixa{
+  width: 940px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li{
+  display: inline;
+  margin-left: 15px;
+    }
+
+nav a{
+  color:#CBAE8B;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}  
+
+nav a:hover{
+  color: #8E6B53;
+  text-decoration: underline;
+}
+
+.divlema{
+  background-color:#724d37;
+  padding: 20px 0;
+  
+  height: 900px;
+}
+
+p{
+  color: #ededed;
+  font-size: 30px;
+  display: left;
+  padding-left: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+h2{
+  color: #ededed;
+  text-align: center;
+}
+.banner{
+  padding-left: 500px;
+  width: 400px;
+}
+.imagens{
+  display: inline;
+}
+.banner2{
+  width: 600px;
+  height: 600px;
+  top: 20px;
+}
+footer{
+  height: 270px;
+  background-color:  #462A19;
+  text-align: center;
+  padding: 40px 0;
+}
+.logobranca{
+  height: 200px;
+}
+.copyright{
+  color: #8E6B53;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.produtos{
+  background-color:#724d37 ;
+  padding: 50px;
+}
+
+.produtos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 550px;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos-descricao{
+  font-size: 18px;
+}
+
+.produtos-preco{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px 0 0 0;
+}
+
+.produtos li:hover{
+  border-color:gold;
+}
+
+.produtos li:hover h2{
+  font-size: 34px;
+}
+
+.produtos li:active{
+  border-color: gold ;
+}
+
+.corpo-pedido{
+  background-color: #724d37;
+}
+
+
+.main-pedido{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  margin-top: 50px;
+  width: 40%;
+  padding: 30px 0;
+  background: gold;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.enviar:hover{
+  background: #724d37;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background: gold  ;
+  color: white;
+  font-weight: bold;
+}
+
+th, td{
+  border: 2px solid #000000;
+  padding: 10px;
+
+  text-align: center;
+
+}
+.opcao-pedido{
+  background-color: gold ;
+  width: 300px;
+  height: 50px;
+}
+.legenda-pedido{
+  font-size: 40px;
+}
+
+.h1-pedido{
+  font-size: 40px;
+}
+
+.main-contato{
+  width: 940px;
+  margin: 0 auto;
+}
+.corpo-contato{
+  background-color: #724d37;
+}
